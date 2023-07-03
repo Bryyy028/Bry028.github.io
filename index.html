@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Tullao | Personal Website</title>
+    <link rel="short icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo" rel="stylesheet" type="text/css"/>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    
+</head>
+
+<body>
+    
+
+    <section class="hero">
+        <img src="images/bg11.png" alt="" class="parallax">
+    </section>
+    <header1 class="header1" id="header1">
+        <nav class="nav container">
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link active-link">
+                            <i class="bx bx-user"></i>
+                        </a>
+                    </li>
+    
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link active-link">
+                            <i class="bx bx-book"></i>
+                        </a>
+                    </li>
+    
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link active-link">
+                            <i class='bx bxs-folder'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link active-link">
+                            <i class="bx bx-message-square-detail"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header1>
+    
+    <svg 
+        id="logo" 
+        width="253" height="106" viewBox="0 0 253 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M52.8362 51.304C56.4842 51.88 59.7962 53.368 62.7722 55.768C65.8442 58.168 68.2442 61.144 69.9722 64.696C71.7962 68.248 72.7082 72.04 72.7082 76.072C72.7082 81.16 71.4122 85.768 68.8202 89.896C66.2282 93.928 62.4362 97.144 57.4442 99.544C52.5482 101.848 46.7402 103 40.0202 103H2.5802V2.63199H38.5802C45.3962 2.63199 51.2042 3.78399 56.0042 6.08799C60.8042 8.29599 64.4042 11.32 66.8042 15.16C69.2042 19 70.4042 23.32 70.4042 28.12C70.4042 34.072 68.7722 39.016 65.5082 42.952C62.3402 46.792 58.1162 49.576 52.8362 51.304ZM15.6842 45.976H37.7162C43.8602 45.976 48.6122 44.536 51.9722 41.656C55.3322 38.776 57.0122 34.792 57.0122 29.704C57.0122 24.616 55.3322 20.632 51.9722 17.752C48.6122 14.872 43.7642 13.432 37.4282 13.432H15.6842V45.976ZM38.8682 92.2C45.3962 92.2 50.4842 90.664 54.1322 87.592C57.7802 84.52 59.6042 80.248 59.6042 74.776C59.6042 69.208 57.6842 64.84 53.8442 61.672C50.0042 58.408 44.8682 56.776 38.4362 56.776H15.6842V92.2H38.8682Z" stroke="white" stroke-width="5"/>
+        <path d="M143.741 103L119.837 61.96H103.997V103H90.8927V2.63199H123.293C130.877 2.63199 137.261 3.92799 142.445 6.51999C147.725 9.11199 151.661 12.616 154.253 17.032C156.845 21.448 158.141 26.488 158.141 32.152C158.141 39.064 156.125 45.16 152.093 50.44C148.157 55.72 142.205 59.224 134.237 60.952L159.437 103H143.741ZM103.997 51.448H123.293C130.397 51.448 135.725 49.72 139.277 46.264C142.829 42.712 144.605 38.008 144.605 32.152C144.605 26.2 142.829 21.592 139.277 18.328C135.821 15.064 130.493 13.432 123.293 13.432H103.997V51.448Z" stroke="white" stroke-width="5"/>
+        <path d="M248.774 2.63199L216.086 65.128V103H202.982V65.128L170.15 2.63199H184.694L209.462 53.464L234.23 2.63199H248.774Z" stroke="white" stroke-width="5"/>
+        </svg>
+    
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        
+        <nav class="top-nav">
+            <ul class="nav-list"> 
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact </a>
+                </li>
+            </ul>
+        
+        </nav>
+        <div class="landing-text">
+            <h6>Hello, I am</h6>
+            <h1>Bryan Tullao</h1>
+            <h3>and I'm a   <span class="typing"></span></h3>
+        </div>
+        
+    </header>
+    <section class="about" id="about">
+        
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="200">
+                <img src="images/profile1.png" alt="">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="500">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>
+                    Hello, I'm Kobe Bryan Tullao. I am a 3rd year Computer Engineering student
+                    currently studying at Pangasinan State University, Urdaneta City Campus. And I am currently studying
+                    Web Development to be a successful Web Developer and Designer someday. Scroll down to view some of my works
+                    and services.
+                </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.facebook.com/bryankobe.quintotullao.1/" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Bry028" class="icon-link" target="_blank">
+                                <i class="fab fa-github-square"></i>
+    
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/izzzbryyy28/" class="icon-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+    
+                            </a>
+                        </li>
+                    </ul>
+                </div>               
+            </div> 
+        </div>
+    </section>
+
+    
+    <div class="skill-animation">
+        <li><h3>html</h3>
+            <span class="bar1"><span class="html"></span></span>
+        </li>
+
+        <li><h3>css</h3>
+            <span class="bar1"><span class="css"></span></span>
+        </li>
+
+        <li><h3>javascript</h3>
+            <span class="bar1"><span class="javascript"></span></span>
+        </li>
+
+        <li><h3>python</h3>
+            <span class="bar1"><span class="python"></span></span>
+        </li>
+
+        <li><h3>java</h3>
+            <span class="bar1"><span class="java"></span></span>
+        </li>
+    </div>
+    
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for You</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>UI/UX Design</h1>
+                    <p>Landing Pages, User Flow, Wireframing, Prototyping, 
+                        Mobile App Design, Web App
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container1">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>HTML/CSS, Javascript Animation, WordPress, Django, Flask,
+                        Responsive Website
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container2">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h1>Icon/Illustration</h1>
+                    <p>
+                        Character Design, Icon Set, Illustration Guide, 
+                        Illustration Set
+                    </p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="1200">
+                    <div class="icon-container3">
+                        <i class="fas fa-solid fa-pen"></i>                    
+                    </div>
+                    <h1>AutoCAD</h1>
+                    <p>
+                        2D & 3D drawings, 3d rendering
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/java.png" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Software Development</h6>
+                    <h1>School Registration System</h1>
+                    <p>A simple School Registration System using Java GUI and mySQL for database
+                    </p>
+                    <a class="cta">View Details</a>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+                            
+                            <h3 class="services__modal-title">Software Development</h3>
+                            <p class="services__modal-description">
+                                A simple School Registration System
+                            </p>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Built from Java, XAMPP for server and phpmyAdmin and 
+                                        mySQL for its database
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                       Desgin from Java GUI Netbeans
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        A system where you can register for enrollment
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        A system that manage students personal information
+                                    </p>
+                                </li>
+                                <a href="https://github.com/Bry028" target="_blank" class="view__details">
+                                    <h6>View Project <i class="bx bx-right-arrow-alt portfolio__button-icon"></i></h6>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                    <h6>Software Development</h6>
+                    <h1>Quiz Game</h1>
+                    <p>A simple quiz game using Python tkinter and sqlite3 for database
+                    </p>
+                    <a class="cta">View Details</a>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+                            
+                            <h3 class="services__modal-title">Software Development</h3>
+                            <p class="services__modal-description">
+                                A simple quiz game
+                            </p>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        A game which participants test what they know by answering questions 
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Built from Python and sqlite3 for its database
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                       Design from Python tkinter GUI and photoshop
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Made for Quizzers
+                                    </p>
+                                </li>
+                                <a href="https://github.com/Bry028" target="_blank" class="view__details">
+                                    <h6>View Project <i class="bx bx-right-arrow-alt portfolio__button-icon"></i></h6>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1000">
+                    <img src="images/python.png" alt="">
+                </div>
+                
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="images/web.png" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                    <h6>Web Development</h6>
+                    <h1>Website</h1>
+                    <p>A Glassmorphism UI homepage design for Website using HTML and CSS
+                    </p>
+                    <a class="cta">View Details</a>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+                            
+                            <h3 class="services__modal-title">Web Development</h3>
+                            <p class="services__modal-description">
+                                A Glassmorphism UI homepage design for Website
+                            </p>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        A simple homepage design
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Built from HTML/CSS
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        A Glassmorphism UI CSS effect
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Another web development project built from Django
+                                    </p>
+                                </li>
+                                <a href="http://bryantullao.epizy.com/web.html" target="_blank" class="view__details">
+                                    <h6>View Project <i class="bx bx-right-arrow-alt portfolio__button-icon"></i></h6>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                    <h6>Drawing</h6>
+                    <h1>AutoCAD</h1>
+                    <p>2D, 3D drawing design and drafting, floor plans and architectural plans
+                    </p>
+                    <a class="cta">View Details</a>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+                            
+                            <h3 class="services__modal-title">Drawing</h3>
+                            <p class="services__modal-description">
+                                2D, 3D drawing design and drafting, floor plans and architectural plans
+                            </p>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        2d drawing
+                                    </p>
+                                </li>
+    
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        3d drawing and rendering
+                                    </p>
+                                </li>
+    
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        Floor plans
+                                    </p>
+                                </li>
+    
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">
+                                        PVC design
+                                    </p>
+                                </li>
+                                <a href="https://github.com/Bry028" target="_blank" class="view__details">
+                                    <h6>View Project <i class="bx bx-right-arrow-alt portfolio__button-icon"></i></h6>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1000">
+                    <img src="images/cad.png" alt="">
+                </div>    
+            </div>
+        </div>
+        
+        
+
+        
+    </section>
+
+    
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's Work Together</h6>
+            </div>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    
+                    <div class="contact__info" data-aos="fade-up" data-aos-delay="400">
+                        <div class="contact__card">
+                            <i class="bx bx-mail-send contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">tullao.kobebryan@gmail.com</span>
+                            
+   
+                        </div>
+
+                        <div class="contact__card1">
+                            <i class='fa fa-map-marker contact__card-icon'></i>
+                            <h3 class="contact__card-title">Location</h3>
+                            <span class="contact__card-data">Tayug, Pangasinan, Philippines</span>
+                            
+                        </div>
+
+                        <div class="contact__card2">
+                            <i class='bx bxs-phone contact__card-icon'></i>
+                            <h3 class="contact__card-title">Phone</h3>
+                            <span class="contact__card-data">+63 927 527 8740</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content" data-aos="fade-up" data-aos-delay="600">
+                    <form action="thankyou.html" method="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Names</label>
+                            <input type="Name" placeholder="Insert your name" id="name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="Email" placeholder="Insert your email" id="email" class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="Message" class="contact__form-tag">Project</label>
+                            <textarea name="" id="" class="contact__form-input" placeholder="Write your project"></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New Message!">
+                        <button type="submit" class="button">Submit</button>
+                        <input type="hidden" name="_captcha" value="false">
+                        
+                    </form>
+                </div>
+            </div> 
+        </div>
+        <div class="animation-area">
+            <ul class="box-area">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        
+    </section>
+    
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2022 Bryan Tullao - All Rights Reserved</p>
+        
+    </footer>
+
+  
+    <script>
+        window.addEventListener('scroll', function() {
+            const parallax = document.querySelector('.parallax');
+            let scrollPosition = window.pageYOffset;
+
+            parallax.style.transform = 'translateY(' + scrollPosition * .6 + 'px)';
+        })
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
